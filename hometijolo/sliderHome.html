@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow na Home da Tijolo</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+    <!-- Imagens com width 100% -->
+    <div class="meusSlides fade">
+      <img src="img1.jpg" style="width:100%">
+      <div class="texto1">
+        <h1>Faça seu</h1>
+        <h1>pedido</h1>
+      </div>
+    </div>
+  
+    <div class="meusSlides fade">
+      <img src="img2.jpg" style="width:100%">
+      <div class="text-block">
+        <h3>Prato do dia</h3>
+        <p>Sanduiche de Pastrami</p>
+        <p>com pita chips e pão de</p>
+        <p>fermentação natural</p>
+      </div>
+    </div>
+  
+    <div class="meusSlides fade">
+      <img src="img3.jpg" style="width:100%">
+      <div class="text-block">
+        <h3>Promoções da semana</h3>
+        <p>Quarta - Cerveja e Bocagitos</p>
+        <p>Quinta - Taça em dobro</p>
+        <p>Sexta - Espumante em dobro</p>
+      </div>
+    </div>
+  
+    <!-- Botões anterior e próximo -->
+    <a class="ant" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="prox" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- Círculos para variar as imagens -->
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> 
+  <script src="sliderManual.js"></script>
+  <script src="sliderAutomatico.js"></script>
+</body>
+</html>
