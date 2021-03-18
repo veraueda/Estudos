@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica, Sans-Serif;
+	font-family: 'Helvetica', Sans-Serif;
 	/*height: 100%;
 	margin: 0;*/
 }
@@ -45,12 +45,13 @@ header {						  /* Tijolo */
 
 .cardapio {
 	/*width: 600px; 		/*Define a largura da div em pixels, mas vamos usar background-size: cover*/
+	position: relative;
 	height: 180px;			/*Define a altura da div em pixels;*/						  
 	color: #696969;
 	font-size: 36px;
 	font-weight: bold;
 	font-family: helvetica;
-	margin: 618px 0 0; /*Margens do container*/
+	margin: 10px 0 0; /*Margens do container - diminuí o espaço em relação ao slider */
 	background: #ED582966;
     background-size: cover; /*Assim cobre a tela toda com a cor que definirmos*/
     display: flex;

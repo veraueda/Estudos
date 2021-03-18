@@ -46,15 +46,14 @@
 .texto1 {
   font-family: 'Helvetica', 'Montserrat', sans-serif;
   position: absolute;
-  bottom: 33%;
-  left: 33%;
+  bottom: 40%;
+  left: 35%;
   background-color: none;
   opacity: none;
   color: white;
   font-weight: bold;
   font-size: 150%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -62,14 +61,13 @@
 .text-block {
   font-family: 'Helvetica', 'Montserrat', sans-serif;
   position: absolute;
-  bottom: 33%;
-  left: 33%;
+  bottom: 40%;
+  left: 35%;
   background-color: white;
   opacity: 0.6;
   color: black;
-  font-size: 150%;
-  padding-left: 30px;
-  padding-right: 30px;
+  font-size: 120%;
+  padding: 30px;
   text-align: center;
 }
 
