@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 70%;
+  max-width: 80%;
   max-height: 50%;
   position: relative;
   margin: auto;
@@ -31,7 +31,7 @@
   user-select: none;
 }
 
-/* Posição do botão "next" à direita */
+/* Posição do botão "prox" à direita */
 .prox {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -47,7 +47,7 @@
   font-family: 'Helvetica', 'Montserrat', sans-serif;
   position: absolute;
   bottom: 40%;
-  left: 35%;
+  left: 40%;
   background-color: none;
   opacity: none;
   color: white;
@@ -62,7 +62,7 @@
   font-family: 'Helvetica', 'Montserrat', sans-serif;
   position: absolute;
   bottom: 40%;
-  left: 35%;
+  left: 40%;
   background-color: white;
   opacity: 0.6;
   color: black;

@@ -59,11 +59,11 @@ header {						  /* Tijolo */
 }
 
 .cardapioHome {
-	width: 70%;
+	width: 80%;
 	position: relative;
 	height: 180px;			/*Define a altura da div em pixels;*/						  
 	margin: 10px; /*Margens do container - diminuí o espaço em relação ao slider */
-	margin-left: 15%;
+	margin-left: 10%;
 	color: #696969;
 	font-size: 36px;
 	font-weight: bold;
@@ -76,11 +76,11 @@ header {						  /* Tijolo */
  }
 
 .quemSomosHome {
-	width: 70%;
+	width: 80%;
 	position: relative;	
 	height: 180px;			/*Define a altura da div em pixels;*/						  
 	margin: 1px; /*Margens do container*/
-	margin-left: 15%;
+	margin-left: 10%;
 	color: #696969;
 	font-size: 36px;
 	font-weight: bold;
@@ -142,10 +142,10 @@ footer {
     border-top: 2px solid #B96E4E;
 	background-color: #B96E4E;
   	color: #FFFFFF;
-	width: 70%;
+	width: 80%;
     height: 100%;
-	margin: 20px;
-	margin-left: 15%;
+	margin: 10px;
+	margin-left: 10%;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;

@@ -1,35 +1,25 @@
-body{
-	font-family: "Montserrat", sans-sans-serif;
-}
-
 .titulo-cardapio {
-	 text-align: center;
-	 font-size: 3em;
-	 /*font-size: 40px*/
-	 padding-top: 50px;
-	 font-weight: bold;
-	 color: #8B0000;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 50px;
+	font-weight: bold;
+	color: #8B0000;
 }
 
-.container{
-   width: 96%;
-   margin: 0 auto;
+.containerCardapio {
+	width: 90%;
+	margin: 10px auto;
 }
 
 .painel-cardapio .cardapio {
-   text-align: center;
+	text-align: center;
 }
 
 .painel-cardapio .prato {
-   display: inline-block;
+	display: inline-block;
 	width: 30%;
 	margin: 0 10px 16px 0;
 	padding: 5px;
-   /*width: 220px;
-   background-color: white;
-   padding: 18px;
-   border-radius: 8px;
-   vertical-align: top;*/
 }
 
 .cardapio li {
@@ -46,11 +36,6 @@ body{
 	box-sizing: border-box;
 }*/
 
-/*
-.cardapio li:hover {
-	border-color: #C78C19;
-}
-*/
 
 .cardapio li:hover p {
 	font-size: 1.1em;
@@ -82,7 +67,6 @@ body{
 
 @media (max-width: 480px) {
  	.painel-cardapio .prato {
-       width: auto;
-		 width: 100%;
+       max-width: 100%;
    }
 }

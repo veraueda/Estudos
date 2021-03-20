@@ -2,7 +2,6 @@
 @media screen and (max-width: 480px) { 
             .panel-Modelo,
             .mapa,
-            .mapa-conteudo,
             .containerContato, 
             .containerContato1{ 
                 width: 100%; 
@@ -31,10 +30,10 @@
 .panel-Modelo {
     text-align: center;
     display: inline-block;
-    width: 70%;
+    width: 80%;
     vertical-align: top;
-    margin-left: 15%;
-    background: linear-gradient(to bottom, rgba(0.1,0.1,0.1,0.1) 0%,rgba(0.6,0.6,0.6,0.6) 90%),url(../img/contato-fundo.jpg) no-repeat ;
+    margin-left: 10%;
+    background: linear-gradient(to bottom, rgba(0.1,0.1,0.1,0.1) 0%,rgba(0.6,0.6,0.6,0.6) 80%),url(../img/contato-fundo.jpg) no-repeat ;
     background-size: cover;
 }
 
@@ -58,10 +57,10 @@
 
 .mapa {
     padding: 2em 0;
-  
+    margin-right: 10%;
 }
 .mapa-conteudo {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 

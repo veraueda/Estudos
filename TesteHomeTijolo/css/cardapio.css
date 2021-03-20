@@ -7,7 +7,7 @@
 }
 
 .containerCardapio {
-	width: 80%;
+	width: 90%;
 	margin: 10px auto;
 }
 
@@ -17,7 +17,7 @@
 
 .painel-cardapio .prato {
 	display: inline-block;
-	width: 26.6%;
+	width: 30%;
 	margin: 0 10px 16px 0;
 	padding: 5px;
 }
@@ -48,7 +48,7 @@
 */
 
 .cardapio li img {
-	width: 80%;
+	width: 90%;
 	/*border: 2px solid #ddd;*/
 }
 
