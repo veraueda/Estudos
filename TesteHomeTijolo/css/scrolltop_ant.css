@@ -1,0 +1,16 @@
+#subir{
+	position:fixed;
+	bottom:2em;
+	right:2em;
+    width: 4%;
+    height: 4%;
+}
+
+@media screen and (max-width: 920px) {
+	#subir {
+		bottom:1em;
+		right:1em;
+		width: 10%;
+		height:10%;
+	}
+}
